@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="Dsae17K0vIBE32mzRp2oaz6ZcwG2eakSJ-VBoDbaFsQ" />
+<meta name="description" content="Maxik is a private personal assistant app that manages its owner's Google Tasks: it lists, adds, completes and deletes to-do items on the owner's request.">
 <title>Maxik</title>
 <style>
   body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6; color: #1c1c1c; background: #fafafa; margin: 0; }
@@ -12,24 +13,50 @@
   h2 { font-size: 1.1rem; margin: 32px 0 8px; }
   a { color: #0b57d0; }
   .muted { color: #5f6368; }
-  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #161616; } a { color: #8ab4f8; } .muted { color: #9aa0a6; } }
+  hr { border: 0; border-top: 1px solid #d0d0d0; margin: 40px 0; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #161616; } a { color: #8ab4f8; } .muted { color: #9aa0a6; } hr { border-top-color: #3a3a3a; } }
 </style>
 </head>
 <body>
 <main>
   <h1>Maxik</h1>
-  <p class="muted">A private personal assistant. Личный помощник одного человека.</p>
+  <p class="muted">Maxik is a personal to-do assistant app for Google Tasks.</p>
 
-  <h2>What it is</h2>
-  <p>Maxik is a personal assistant used by a single person, its owner. It is not a public service: there is no sign-up and it is not offered to other users.</p>
-  <p>With the owner's permission, Maxik connects to the owner's own Google Tasks account to show task lists, add tasks, mark them as completed and delete them when the owner asks for it.</p>
+  <h2>Purpose of the Maxik app</h2>
+  <p>Maxik is a personal assistant application. Its purpose is to help its owner manage a to-do list kept in Google Tasks by sending short text or voice requests to the assistant in a private chat.</p>
+  <p>This page is public. No account, sign-up or login is needed to read it.</p>
 
-  <h2>Что это</h2>
-  <p>Maxik: личный помощник, которым пользуется один человек, его владелец. Это не публичный сервис: регистрации нет, другим людям он не предлагается.</p>
-  <p>С разрешения владельца Maxik подключается к его собственному аккаунту Google Tasks: показывает списки дел, добавляет дела, отмечает их выполненными и удаляет по просьбе владельца.</p>
+  <h2>What Maxik does with Google Tasks</h2>
+  <ul>
+    <li>Shows the owner's task lists and the tasks in them.</li>
+    <li>Adds a new task when the owner asks for it, with a title, notes and a due date.</li>
+    <li>Marks a task as completed when the owner asks for it.</li>
+    <li>Deletes a task when the owner asks for it.</li>
+  </ul>
 
-  <h2>Privacy</h2>
-  <p><a href="privacy.html">Privacy Policy / Политика конфиденциальности</a></p>
+  <h2>Google data Maxik uses</h2>
+  <p>Maxik requests one Google permission: access to Google Tasks (<code>https://www.googleapis.com/auth/tasks</code>). It uses this permission only for the actions listed above. Maxik does not access Gmail, Google Drive, Google Calendar, Google Photos, contacts or any other Google data.</p>
+
+  <h2>What Maxik does not do</h2>
+  <ul>
+    <li>Maxik does not generate, edit or process images or videos of people.</li>
+    <li>Maxik does not sell data, show advertising or share Google data with other people.</li>
+    <li>Maxik does not use Google data to train AI models.</li>
+  </ul>
+
+  <h2>Who uses Maxik</h2>
+  <p>Maxik is a private app used by one person, its owner, with the owner's own Google account. It is not offered to the public and has no sign-up.</p>
+
+  <h2>Privacy policy</h2>
+  <p>Read the <a href="privacy.html">Maxik Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions can be sent through the <a href="https://github.com/NiGP/maxik/issues">Issues page of the Maxik repository</a>.</p>
+
+  <hr>
+
+  <h2 lang="ru">Кратко по-русски</h2>
+  <p lang="ru">Maxik: личный помощник одного человека для списка дел в Google Tasks. По просьбе владельца он показывает дела, добавляет их, отмечает выполненными и удаляет. Запрашивается только доступ к Google Tasks. Это не публичный сервис, регистрации нет. <a href="privacy.html">Политика конфиденциальности</a>.</p>
 </main>
 </body>
 </html>
